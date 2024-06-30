@@ -22,7 +22,11 @@ pipeline {
       }
     }
 
+<<<<<<< HEAD
     stage('artifact') {
+=======
+    stage('Archieve') {
+>>>>>>> 62fb7a67542a7e5f87f0eadb8c60ba84c4f3d8eb
       steps {
         archiveArtifacts '**/distribution/*.zip'
       }
@@ -38,4 +42,8 @@ pipeline {
     }
 
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 62fb7a67542a7e5f87f0eadb8c60ba84c4f3d8eb
